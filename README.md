@@ -1,10 +1,8 @@
 ##Java Concurrency - Practical exercises
 
 I want to share the solution I have given for the **producer–consumer problem** and to the **readers–writers problem** using **semaphores** and a **monitor** with **conditions variables** respectively.
-The goal of this two practical exercises is to** control the concurrent access** to a shared resource.
+The goal of this two practical exercises is to **control the concurrent access** to a shared resource.
 I was asked to implement these solutions for an assignment for the “Programación Concurrente” (Concurrent programming) module which I took at university (2012-2013). 
-
-* * *
 
 ###Drakkar Vikingo
 ####Producer–Consumer problem
@@ -16,11 +14,8 @@ so they would have to wait until one finishes to eat the pertinent eel. Once the
 - java.util.concurrent.**Semaphore**
 
 #### Demo
-<div class="align-center">
-![demo](http://i1030.photobucket.com/albums/y369/MariaPhotoB/Drakkar_zpsxc7f55t5.gif)
-</div>
 
-<br><br>
+![demo](http://i1030.photobucket.com/albums/y369/MariaPhotoB/Drakkar_zpsxc7f55t5.gif)
 
 ###RWMonitor
 ####Readers-Writers problem
@@ -32,18 +27,15 @@ Writers can write when no writers or readers are accessing the file.
 - java.lang **Interface Runnable**
 - java.util.concurrent.locks.**ReentrantLock**
 - java.util.concurrent.locks **Interface Condition**
-- 
-#### Output example
-<div class="align-center">
-![Image](http://i1030.photobucket.com/albums/y369/MariaPhotoB/Monitor01_zpsoqobsdxc.png)
-</div>
 
-* * *
+#### Output example
+
+![Image](http://i1030.photobucket.com/albums/y369/MariaPhotoB/Monitor01_zpsoqobsdxc.png)
+
+
 
 ### License
 This project is licensed under the [Apache 2 License](http://www.apache.org/licenses/LICENSE-2.0). 
-
-<br>
 
 ### Run the programmes
 You must have installed and configured the Java Development Kit (JDK).
