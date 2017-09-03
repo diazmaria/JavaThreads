@@ -15,7 +15,7 @@ so they would have to wait until one finishes to eat the pertinent eel. Once the
 
 #### Demo
 
-![demo](http://i1030.photobucket.com/albums/y369/MariaPhotoB/Drakkar_zpsxc7f55t5.gif)
+![demo](https://thumbs.gfycat.com/AmazingEdibleAvocet-size_restricted.gif)
 
 ###RWMonitor
 ####Readers-Writers problem
@@ -30,8 +30,7 @@ Writers can write when no writers or readers are accessing the file.
 
 #### Output example
 
-![Image](http://i1030.photobucket.com/albums/y369/MariaPhotoB/Monitor01_zpsoqobsdxc.png)
-
+![Image](https://image.ibb.co/kT4TEF/Monitor02.png)
 
 
 ### License
